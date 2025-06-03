@@ -19,7 +19,7 @@ cadastro-alunos-java/
 ├── LICENSE
 └── README.md
 
-[23:34, 02/06/2025] Lucas Bravo: ---
+ ---
 
 ## ⚙️ Funcionalidades
 
