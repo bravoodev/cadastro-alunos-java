@@ -42,9 +42,10 @@ cadastro-alunos-java/
 2. Compile os arquivos:
 
 ```bash
-javac src/*.java
+javac src/*.java 
+```
 
-##🧠 Aprendizados
+## 🧠 Aprendizados
 
 Esse projeto foi desenvolvido como exercício para praticar:
 	•	Criação de objetos com new
@@ -54,7 +55,7 @@ Esse projeto foi desenvolvido como exercício para praticar:
 
 ⸻
 
-##🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 	•	Java 17+ (ou compatível)
 	•	Terminal/Prompt de comando
 	•	Git + GitHub para versionamento
@@ -76,7 +77,7 @@ O projeto será mantido e expandido conforme avanço na linguagem.
 
 ⸻
 
-##📄 Licença
+## 📄 Licença
 
 Este projeto está licenciado sob a MIT License.
 
