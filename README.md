@@ -11,6 +11,7 @@ Projeto simples desenvolvido em Java, utilizando entrada de dados via terminal (
 ---
 
 ## 📂 Estrutura do Projeto
+```text
 cadastro-alunos-java/
 ├── src/
 │   ├── Aluno.java
@@ -18,6 +19,7 @@ cadastro-alunos-java/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
  ---
 
