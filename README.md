@@ -34,7 +34,7 @@ cadastro-alunos-java/
 
 ## 📸 Demonstração
 
-![Demonstração do terminal](./imgs/demo-cadastro-alunos.png)
+![Demonstração do terminal](./imgs/demonstracao-terminal.png)
 
 ---
 
