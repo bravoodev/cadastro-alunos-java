@@ -60,7 +60,6 @@ git clone https://github.com/seu-usuario/seu-repo.git
 
 ## 🖼️ Exemplo de execução no terminal
 
-(Salve a imagem em `img/terminal_exemplo.png` e adicione esta linha no README.md se for usá-lo em formato visual)
 
 ![Execução no terminal](./imgs/terminal_exemplo.png)
 
