@@ -85,5 +85,5 @@ git clone https://github.com/seu-usuario/seu-repo.git
 
 ## 📝 Autor
 
-Desenvolvido por **Lucas Braff Soares** como parte do aprendizado em Java.  
+Desenvolvido por **Lucas Bravo Soares** como parte do aprendizado em Java.  
 Contribuições são bem-vindas!
