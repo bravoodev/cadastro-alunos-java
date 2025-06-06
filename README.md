@@ -1,88 +1,86 @@
-# 📘 Cadastro de Alunos – Projeto em Java
+# 📘 Student Registration – Java Project
 
-Este é um projeto simples desenvolvido em Java, com o objetivo de registrar alunos e suas informações básicas. A aplicação funciona via terminal, com um menu interativo que permite:
-
-- 👤 Cadastrar múltiplos alunos
-- 📋 Listar todos os alunos registrados
-- 💾 Salvar os alunos em um arquivo `.txt`
-- 📂 Visualizar depois os dados salvos
+> 🇧🇷 Leia este conteúdo em [Português](./README-pt.md)  
+> ⚠️ Note: The variable names and code comments are currently in Portuguese, as this project was initially developed for local learning purposes. An English version will be implemented in a future update.
 
 ---
 
-## ⚙️ Funcionalidades
+## ⚙️ Features
 
-### 1. Cadastrar Aluno
-O usuário insere:
-- Nome
-- Idade
-- Nota
+### 1. Register Student
+The user inputs:
+- Name
+- Age
+- Grade
 
-Esses dados são armazenados em uma lista de objetos `Aluno`.
+These details are stored in a list of `Aluno` objects.
 
-### 2. Listar Alunos
-Mostra todos os alunos cadastrados na sessão atual do programa.
+### 2. List Students
+Displays all students registered in the current session.
 
-### 3. Salvar em Arquivo
-Grava os dados da lista de alunos no arquivo `alunos.txt`, que é criado na raiz do projeto.
+### 3. Save to File
+Saves the student list into a `alunos.txt` file created at the project root.
 
-Exemplo do conteúdo gerado:
-Nome: João, Idade: 14, Nota: 8.5
-Nome: Maria, Idade: 13, Nota: 9.0
+Example output:
+Name: João, Age: 14, Grade: 8.5  
+Name: Maria, Age: 13, Grade: 9.0
 
-### 4. Ler Alunos do Arquivo *(opcional)*
-Se implementado, lê e exibe os alunos salvos em `alunos.txt`.
+### 4. Read Students from File *(optional)*
+If implemented, it reads and displays the students saved in `alunos.txt`.
 
 ---
 
-## 🧪 Como Usar
+## 🧪 How to Use
 
-1. Clone o repositório:
+1. Clone the repository:
+```bash
 git clone https://github.com/seu-usuario/seu-repo.git
+```
 
-2. Abra o projeto no NetBeans ou Visual Studio Code.
+2. Open the project in NetBeans or Visual Studio Code.
 
-3. Rode a classe `CadastroAlunos`.
+3. Run the class `CadastroAlunos`.
 
-4. Use o menu interativo no terminal:
+4. Use the interactive terminal menu:
 
+```
 === MENU ===
-1 - Cadastrar Aluno
-2 - Listar Alunos
-3 - Salvar alunos no arquivo
-0 - Sair
+1 - Register Student
+2 - List Students
+3 - Save students to file
+0 - Exit
+```
 
-5. Para ver os alunos salvos:
-   - Abra o arquivo `alunos.txt` na raiz do projeto.
-   - Ou adicione a função `lerAlunosDoArquivo()` para visualizar no terminal.
-
----
-
-
-## 🖼️ Exemplo de execução no terminal
-
-
-![Execução no terminal](./imgs/terminal_exemplo.png)
+5. To view saved students:
+   - Open the `alunos.txt` file located at the project root.
+   - Or implement the `lerAlunosDoArquivo()` function to view them in the terminal.
 
 ---
 
-## 🛠️ Tecnologias
+## 🖼️ Terminal Execution Example
+
+![Terminal Execution](./imgs/terminal_exemplo.png)
+
+---
+
+## 🛠️ Technologies
 
 - Java 8+
-- NetBeans ou Visual Studio Code
-- Git e GitHub para versionamento
+- NetBeans or Visual Studio Code
+- Git and GitHub for version control
 
 ---
 
-## 🧠 Aprendizados
+## 🧠 Learnings
 
-- Criação e uso de listas com `ArrayList`
-- Uso de `Scanner` para entrada via terminal
-- Escrita em arquivos com `FileWriter` e boas práticas com `try-with-resources`
-- Estrutura de menu com `do-while` e `switch`
+- Creating and using lists with `ArrayList`
+- Using `Scanner` for terminal input
+- Writing to files using `FileWriter` and best practices with `try-with-resources`
+- Building terminal menus with `do-while` and `switch` structures
 
 ---
 
-## 📝 Autor
+## 📝 Author
 
-Desenvolvido por **Lucas Bravo Soares** como parte do aprendizado em Java.  
-Contribuições são bem-vindas!
+Developed by **Lucas Bravo Soares** as part of Java learning.  
+Contributions are welcome!
