@@ -1,86 +1,89 @@
-# 📚 Cadastro de Alunos em Java
+# 📘 Cadastro de Alunos – Projeto em Java
 
-Projeto simples desenvolvido em Java, utilizando entrada de dados via terminal (CLI - Command Line Interface), ideal para praticar conceitos fundamentais da linguagem, como:
+Este é um projeto simples desenvolvido em Java, com o objetivo de registrar alunos e suas informações básicas. A aplicação funciona via terminal, com um menu interativo que permite:
 
-- Declaração de classes e atributos
-- Uso de construtores
-- Manipulação de arrays ou listas
-- Entrada de dados com Scanner
-- Encapsulamento com getters e setters
+- 👤 Cadastrar múltiplos alunos
+- 📋 Listar todos os alunos registrados
+- 💾 Salvar os alunos em um arquivo `.txt`
+- 📂 Visualizar depois os dados salvos
 
 ---
-
-## 📂 Estrutura do Projeto
-```text
-cadastro-alunos-java/
-├── src/
-│   ├── Aluno.java
-│   └── CadastroAlunos.java
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
- ---
 
 ## ⚙️ Funcionalidades
 
-- Cadastrar novos alunos com nome, idade e nota
-- Listar todos os alunos cadastrados
-- Exibir os dados de cada aluno de forma organizada
-- Lógica simples e ideal para iniciantes
+### 1. Cadastrar Aluno
+O usuário insere:
+- Nome
+- Idade
+- Nota
+
+Esses dados são armazenados em uma lista de objetos `Aluno`.
+
+### 2. Listar Alunos
+Mostra todos os alunos cadastrados na sessão atual do programa.
+
+### 3. Salvar em Arquivo
+Grava os dados da lista de alunos no arquivo `alunos.txt`, que é criado na raiz do projeto.
+
+Exemplo do conteúdo gerado:
+Nome: João, Idade: 14, Nota: 8.5
+Nome: Maria, Idade: 13, Nota: 9.0
+
+### 4. Ler Alunos do Arquivo *(opcional)*
+Se implementado, lê e exibe os alunos salvos em `alunos.txt`.
 
 ---
 
-## 📸 Demonstração
+## 🧪 Como Usar
 
-![Demonstração do terminal](./imgs/demonstracao-terminal.png)
+1. Clone o repositório:
+git clone https://github.com/seu-usuario/seu-repo.git
+
+2. Abra o projeto no NetBeans ou Visual Studio Code.
+
+3. Rode a classe `CadastroAlunos`.
+
+4. Use o menu interativo no terminal:
+
+=== MENU ===
+1 - Cadastrar Aluno
+2 - Listar Alunos
+3 - Salvar alunos no arquivo
+0 - Sair
+
+5. Para ver os alunos salvos:
+   - Abra o arquivo `alunos.txt` na raiz do projeto.
+   - Ou adicione a função `lerAlunosDoArquivo()` para visualizar no terminal.
 
 ---
 
-## 🚀 Como Executar o Projeto
 
-1. Certifique-se de ter o *Java* instalado.
-2. Compile os arquivos:
+## 🖼️ Exemplo de execução no terminal
 
-```bash
-javac src/*.java 
-```
+(Salve a imagem em `img/terminal_exemplo.png` e adicione esta linha no README.md se for usá-lo em formato visual)
+
+![Execução no terminal](./imgs/terminal_exemplo.png)
+
+---
+
+## 🛠️ Tecnologias
+
+- Java 8+
+- NetBeans ou Visual Studio Code
+- Git e GitHub para versionamento
+
+---
 
 ## 🧠 Aprendizados
 
-Esse projeto foi desenvolvido como exercício para praticar:
-	•	Criação de objetos com new
-	•	Entrada de dados via Scanner
-	•	Estrutura de decisão e repetição
-	•	Organização do código com orientação a objetos (POO)
+- Criação e uso de listas com `ArrayList`
+- Uso de `Scanner` para entrada via terminal
+- Escrita em arquivos com `FileWriter` e boas práticas com `try-with-resources`
+- Estrutura de menu com `do-while` e `switch`
 
-⸻
+---
 
-## 🛠 Tecnologias Utilizadas
-	•	Java 17+ (ou compatível)
-	•	Terminal/Prompt de comando
-	•	Git + GitHub para versionamento
+## 📝 Autor
 
-⸻
-
-## 🎯 Objetivo do Projeto
-
-Esse projeto foi desenvolvido como parte da minha jornada de estudos em Java, com foco em aprofundar o uso de orientação a objetos, manipulação de dados via terminal e boas práticas na organização do código.
-
-Assim como o projeto anterior da *Calculadora com Histórico*, este cadastro de alunos permite consolidar os conhecimentos de:
-
-- Criação e instância de classes
-- Entrada de dados com Scanner
-- Utilização de métodos get e set
-- Encapsulamento e boas práticas de estruturação
-
-O projeto será mantido e expandido conforme avanço na linguagem.
-
-⸻
-
-## 📄 Licença
-
-Este projeto está licenciado sob a MIT License.
-
-
+Desenvolvido por **Lucas Braff Soares** como parte do aprendizado em Java.  
+Contribuições são bem-vindas!

@@ -1,0 +1,3 @@
+Nome: Lucas, Idade: 14, Nota: 6.0
+Nome: Jaqueline Moraes, Idade: 22, Nota: 8.0
+Nome: Luca, Idade: 16, Nota: 9.0
